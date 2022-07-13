@@ -1,0 +1,119 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    margin: 10px;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+}
+
+#profile-photo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.grid {
+    height: 35px;
+    position: relative;
+    bottom: 4px;
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bar {
+    margin:auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 2px solid #dcdcdc;
+
+}
+
+.voice {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.searchbar {
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border: none;
+    color: #707070;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.button:hover {
+    border: 1px solid  #c8c8c8;
+    padding:9px 19px;
+    color: #808080;
+}
+
+.button:focus {
+    border: 2px solid #4885ed;
+    padding: 9px 19px;
+}
+
+.footer {
+    height: 30PX;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div div {
+    margin: 5px 10px 5px 10px;
+}
+
+.footer a {
+    margin: 0 20px 0 20px;
+    text-decoration: none !important;
+}
+
